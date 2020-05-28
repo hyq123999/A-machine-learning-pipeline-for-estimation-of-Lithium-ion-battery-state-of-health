@@ -26,4 +26,4 @@
 4. Load saved data in any of the supplied model code for training
 5. Load the trained model in the supplied jupyter notebook results.ipynb
 
-**NOTE: For access to the data pcrocessing code, please contact Darius Roman at dvr1@hw.ac.uk for the academic license. Only the data modelling code is available without agreeing to a license.**
+**NOTE: For access to the data processing and feature engineering code, please contact Darius Roman at dvr1@hw.ac.uk for the academic license. Only the data modelling code is available without agreeing to a license.**

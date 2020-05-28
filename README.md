@@ -1,6 +1,6 @@
 # A-machine-learning-pipeline-for-estimation-of-Lithium-ion-battery-state-of-health
 
-Data used in the analysis:
+## Data used in the analysis:
 
 • Group 1:
   https://web.calce.umd.edu/batteries/data.htm
@@ -11,3 +11,9 @@ Data used in the analysis:
 
 • Group 3:
   https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac
+
+## Python packages required to run code:
+- numpy 
+- scikit-learn
+- matplotlib
+- tensorflow 

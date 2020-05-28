@@ -20,7 +20,7 @@
 - tensorflow 
 
 ## How to run code:
-1. Download and save supplied training data
+1. Download supplied data. Note: data name indicates what the data should be used for.
 2. Load data and run feature_ranking_capacity_fade_RFE.py
 3. Save data from feature_ranking_capacity_fade_RFE.py
 4. Load saved data in any of the supplied model code for training

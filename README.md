@@ -13,7 +13,9 @@
   https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac
 
 ## Python packages required to run code:
+- pandas
 - numpy 
 - scikit-learn
 - matplotlib
 - tensorflow 
+

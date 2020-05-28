@@ -12,7 +12,7 @@ scaler = StandardScaler() # scaling function
 
 '''Deep Ensamble'''
 
-path = [] # specify data path
+path = [] # specify training data path
 
 # import functions for accuracy assesment
 
@@ -20,11 +20,6 @@ folder = [] # path to plotting
 import sys
 sys.path.append(folder)
 from results_plotting_functions import rmspe, mape, alpha_accuracy_beta_rlh, count_entries_per_interval, predict_prob, std_calibrated
-
-
-# specify battery specific feature_selection and test datasets
-
-battery = [] # select battery group
 
 '''Do you want adversarial case?'''
 adversarial = True
@@ -43,7 +38,7 @@ data_calibration = pd.read_csv(path + 'data_calibration_fsed_' + battery +'.csv'
 data_calibration.reset_index(inplace=True, drop=True)
 
 # test data
-data_test = pd.read_csv(path + 'data_test_fsed_' + battery +'.csv', index_col=0)
+data_test = data_train[data_train.Group==data_train.Group.unique()[-1]] # test the model on the last battery group for visualisation purpuses
 test_x = data_test.drop(['Discharge_Q', 'Group'], axis=1)
 test_y = np.array(data_test.Discharge_Q).reshape(len(data_test), 1)
 

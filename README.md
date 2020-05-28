@@ -21,8 +21,7 @@
 
 ## How to run code:
 1. Download supplied data. Note: data name indicates what the data should be used for.
-2. Load data and run feature_ranking_capacity_fade_RFE.py
-3. Save data from feature_ranking_capacity_fade_RFE.py
+2. Load data and run feature_selection.py
 4. Load saved data in any of the supplied model code for training
 5. Load the trained model in the supplied jupyter notebook results.ipynb
 

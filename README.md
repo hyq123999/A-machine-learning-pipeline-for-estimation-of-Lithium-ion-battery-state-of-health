@@ -19,3 +19,7 @@
 - matplotlib
 - tensorflow 
 
+## How to run code:
+1. Download 
+
+##NOTE: For access to thedata pcrocessing code, please contact Darius Roman at dvr1@hw.ac.uk for the academic license. Only the data modelling code is available without agreeing to a license.

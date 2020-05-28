@@ -1,6 +1,6 @@
 # A-machine-learning-pipeline-for-estimation-of-Lithium-ion-battery-state-of-health
 
-**Data used in the analysis:
+Data used in the analysis:
 
 • Group 1:
   https://web.calce.umd.edu/batteries/data.htm
